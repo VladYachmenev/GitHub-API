@@ -28,7 +28,7 @@ class GitHubApi:
         return response
 
     def check_del_repos(self):
-        url = f" https://api.github.com/repos/{self.user_name}/{self.repos_name}"
+        url = f" https://api.github.com/repos/{self.user_name}/{self.repos_name['name']}"
         response = requests.get(url, headers=self.header)
         return response
 
