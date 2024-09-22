@@ -7,10 +7,11 @@
 3. Установите зависимости через pip install -r requirements.txt
 4. Cоздайте файл .env
 5. Впишите в файл .env переменные:
-API_TOKEN="GitHub token"
 
-USER_NAME="Имя пользователя в GitHub"
+   API_TOKEN="GitHub token"
 
-REPOS_NAME="Название репозитория"
+   USER_NAME="Имя пользователя в GitHub"
+
+   REPOS_NAME="Название репозитория"
 
 7. Запустите тесты через команду pytest -v -s
